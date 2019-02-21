@@ -1,27 +1,20 @@
 /* Layout */
 
+.container{
 
-.nav{
-
-text-align: right;
-font-weight: normal;
+background-color: grey;
 
 }
-
-
-header{
-    width: 100%;
-	height: auto;
-	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
-
-   }
-   header .container {
-	width: 960px;
-    margin: 0 auto;
-}
-
   
 
+.main{
+background-color: grey;
 
+}
+
+img{
+
+    height: 200px;
+    width: 150px;
+}
    
