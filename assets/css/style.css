@@ -56,13 +56,17 @@ padding: 10px;
  }
 
  .border{
-border-right: 1px solid #dddddd;
+border-right: 1px solid black;
 padding: 10px;
+ }
+
+ a:visited{
+     color:black;
  }
 
  .container{
 
-border-bottom: 2px solid #cccccc;
+border-bottom: 2px solid black;
 background-color: white (179, 255, 0);
 height: 60px;
  }
