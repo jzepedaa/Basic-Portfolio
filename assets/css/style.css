@@ -1,0 +1,27 @@
+/* Layout */
+
+
+.nav{
+
+text-align: right;
+font-weight: normal;
+
+}
+
+
+header{
+    width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+
+   }
+   header .container {
+	width: 960px;
+    margin: 0 auto;
+}
+
+  
+
+
+   
