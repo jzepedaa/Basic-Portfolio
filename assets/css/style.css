@@ -1,20 +1,103 @@
 /* Layout */
 
-.container{
-
-background-color: grey;
-
-}
-  
-
-.main{
-background-color: grey;
-
+*{
+    box-sizing: border-box;
 }
 
-img{
-
-    height: 200px;
-    width: 150px;
+body{
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 30px;
+text-align: left;
+width: 960px;
 }
-   
+
+header{
+
+    float: left;
+    background-color:  black;
+    color: white;
+    height: 100%;
+    width: 270px;
+    margin-left: 250px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+h2{
+color:black;
+border-bottom: 5px solid black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top:2px;
+padding-bottom: 4px;
+
+
+}
+
+nav{
+widows: 270px;
+float: right;
+text-align: center;
+margin-right: 120px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+ li{
+float: left;
+width: 80px;
+padding: 10px;
+ }
+
+ .border{
+border-right: 1px solid #dddddd;
+padding: 10px;
+ }
+
+ .container{
+
+border-bottom: 2px solid #cccccc;
+background-color: white (179, 255, 0);
+height: 60px;
+ }
+
+ /* .image{
+     clear:both;
+     float:left;
+     margin-right: 20px;
+     width:200px;
+     height:100px;
+ } */
+
+ .title{
+
+    height: auto;
+	padding: 20px;
+
+ }
+
+ .mainContainer{
+
+	position: relative;
+	text-align: left;
+	width: 650px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+ }
+
+ #social-links {
+	float: right;
+	padding: 10px;
+	width: 270px;
+	top: 30px;
+	text-align: center;
+	margin-right: 125px;
+	margin-top: 30px
+}
