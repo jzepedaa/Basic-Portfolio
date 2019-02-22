@@ -19,7 +19,7 @@ header{
     color: white;
     height: 60px;
     width: 270px;
-    margin-left: 250px;
+    margin-left: 125px;
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
@@ -27,7 +27,7 @@ header{
     padding-top: 20px;
 }
 
-h2{
+h2, h1{
 color:black;
 border-bottom: 5px solid black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -66,7 +66,7 @@ padding: 10px;
 
  .container{
 
-border-bottom: 2px solid black;
+border-bottom: 5px solid black;
 background-color: white ;
 height: 60px;
  }
@@ -82,7 +82,7 @@ height: 60px;
  .title{
 
     height: auto;
-	padding: 20px;
+	padding: 2px;
 
  }
 
@@ -93,7 +93,9 @@ height: 60px;
 	width: 650px;
 	top: 30px;
 	margin-left: 125px;
-	margin-bottom: 50px;
+    margin-bottom: 50px;
+  
+
  }
 
  #social-links {
@@ -104,4 +106,70 @@ height: 60px;
 	text-align: center;
 	margin-right: 125px;
 	margin-top: 30px
+}
+
+img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+
+
+    height: 300px;
+    width: 230px;
+}
+
+
+input{
+
+    width: 100%;
+	padding: 10px 20px 10px 10px;
+    margin: 8px 0;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}
+
+footer{
+clear: both;
+text-align: center;
+padding: 30px;
+color:white;
+background-color: black; 
+vertical-align: middle;
+height: 70px;
+width: 100%;
+margin: 0 auto;
+
+
+}
+
+/* section{
+
+    background-color:black;
+    float: left;
+    color: white;
+    border: 2px solid black; */
+/* } */
+.box {
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+	margin: 20px;
+}
+.project {
+	float: left;
+	position: relative;
+	top:	-10px;
+	width: 100%;
+}
+
+.project-title {
+	float: left;
+	position: relative;
+	top: -50px;
+	width: 100%;
+	height: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
 }
