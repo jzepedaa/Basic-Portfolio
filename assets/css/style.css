@@ -17,7 +17,7 @@ header{
     float: left;
     background-color:  black;
     color: white;
-    height: 100%;
+    height: 60px;
     width: 270px;
     margin-left: 250px;
     margin-bottom: 0;
@@ -71,13 +71,13 @@ background-color: white ;
 height: 60px;
  }
 /* stuck on resizing and making sure the picture i want uploads */
- /* .image{
+ .image{
      clear:both;
      float:left;
      margin-right: 20px;
      width:200px;
      height:100px;
- } */
+ }
 
  .title{
 
