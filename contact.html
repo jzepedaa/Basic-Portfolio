@@ -11,44 +11,53 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>Jaime Zepeda</header>
-
-
-        <nav>
-            <ul>
-                <li class="border"><a id="button" href="index.html">About</a></li>
-                <li class="border"><a id="button" href="portfolio.html">Portfolio</a></li>
-                <li class="border"><a id="button" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="mainContainer">
-
-        <h1 class="title"> Contact </h1>
-
-        <form id="contact">
-        <h4>Name</h4>
-       
-        <input id="name" type="text" placeholder="Insert Name"><br>
-        <h4>Email</h4>
-        <input id="email" type="text" placeholder="Insert Email"><br>
-        <h4>Message</h4>
-        <input id="message" type="text" placeholder="Insert Message"><br>
-        <button class="submit">Submit</button>
-        </form>
+   <!-- Top Navigation Bar 
+    The same on every page-->
     
-    </div>
+    <div class="container">
+            <header>Jaime Zepeda</header>
+    
+    
+            <nav class="links">
+                <ul>
+                    <li class="border"><a href="index.html">About</a></li>
+                    <li class="border"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="border"><a href="contact.html">Contact</a></li>
+    
+                </ul>
+    
+            </nav>
+    
+        </div>
+
+
+        <!-- Contact container -->
+        <div class="innercontainer">
+               
+                    <h1>Contact</h1>
+                    <div id="contactContainer">
+    
+                            <form>
+                                    <label for="fname">Name</label>
+                                    <input type="text" placeholder="Enter Name">
+                                          
+                                    <label for="lname">E-mail Address</label>
+                                    <input type="text" placeholder="Enter Email (example@gmail.com)">
+                                          
+                                    <label for="subject">Message</label>
+                                    <input type="text" placeholder="Enter Message here" id="message" >       
+                                    <input type="submit" value="Submit">
+                                </form>
+                
+                </section>
+                </div>
 
 
 
 
 
-
-    </div>
-
-<footer>Copyrught 2019 Jaime Zepeda</footer>
+   
+                <footer>Copyright© 2019 Jaime Zepeda</footer>
 
 </body>
 
