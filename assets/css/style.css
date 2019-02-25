@@ -72,15 +72,12 @@ background-color: white ;
 height: 60px;
  }
 
-#innerContainer{
-    width: 960px;
-    height: auto;
-    margin: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding-bottom: 1%;
+.innerContainer{
+    
     background-color: white;
-    border: solid 1px black;
+    width: 800px;
+    height: 800px;
+    overflow: scroll;
 }
 
  h1{
@@ -101,19 +98,31 @@ img{
 
 /* portfolio section*/
 
-.portfolio{
-float: left;
+div.portfolio{
+    position: relative;
+    float: left;
 padding-left: 3%;
 padding-right: 1%;
 padding-top: 3%;
 background-clip: content-box;
-position: relative;
+/* background-color: white;
+    width: 800px;
+    height: 800px;
+    overflow: scroll; */
+
+
+
+
 }
 
 .portfolioContainer{
   position: relative;
   text-align: center;
   color: white;
+  background-color: white;
+    width: 800px;
+    height: 800px;
+    overflow: scroll;
 }
 .btn {
     
