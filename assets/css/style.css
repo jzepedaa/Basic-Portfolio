@@ -4,6 +4,7 @@
 
 
 body{
+
 background-image: url("assets/images/background.jpg");
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,7 +33,7 @@ header{
 }
 
  h1{
-color:white;
+color:black;
 border-bottom: 5px solid black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-top:2px;
@@ -45,11 +46,15 @@ float: right;
 text-align: center;
 margin-right: 120px;
 }
+.links{
+    color: white;
+}
 
 ul{
     list-style: none;
     margin: 0;
     padding:0;
+    color: white;
 }
  li{
 float: left;
@@ -78,11 +83,8 @@ height: 60px;
 
 .innerContainer{
     
-    background-color: white;
-    /* width: 800px;
-    height: 800px;
-    overflow: scroll; 
-    */
+    background-color:white;   
+   
 }
 
  h1{
@@ -103,32 +105,17 @@ img{
 
 /* portfolio section*/
 
-div.portfolio{
+.portfolio{
     position: relative;
     float: left;
 padding-left: 3%;
 padding-right: 1%;
 padding-top: 3%;
 background-clip: content-box;
-/* background-color: white;
-    width: 800px;
-    height: 800px;
-    overflow: scroll; */
-
-
-
 
 }
 
-.portfolioContainer{
-  position: relative;
-  text-align: center;
-  /* color: white;
-  background-color: white;
-    width: 800px;
-    height: 800px;
-    overflow: scroll; */
-}
+
 .btn {
     
     position: absolute;
@@ -152,13 +139,16 @@ background-clip: content-box;
 
 /* Containers for the contact information */
 
-.contactContainer {
+#mainContainer
+ {
     border-radius: 5px;
     background-color: white;
     padding: 20px;
     border: 2px solid black;
 
 }
+
+
 /* input[type="text"]::placeholder {  
                   
     text-align: top;
